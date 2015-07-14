@@ -11,12 +11,12 @@ body {
 .cftr-icon {
   position: fixed;
   top: 20px;
-  left: calc(100vw / 2 - 420px);
+  left: calc(100vw / 2 - 425px);
   /*
   The 420px above is gotten from:
    +300px: half of body width, gets us to the page's center.
    +100px: width of icon, gets us to the left of the content.
-   +20px: icon margin, gets us 20px padding to the left of the content.
+   +25px: icon margin, gets us 25px padding to the left of the content.
   */
 }
 a {
@@ -36,7 +36,7 @@ a:hover {
 .copyright {
   color: #444;
   background-color: #eee;
-  width: 100vw;
+  width: 100%;
   margin-top: 13px;
   padding: 20px 0;
   font-size: 0.9em;
@@ -48,7 +48,7 @@ a:hover {
    +40px: Padding on the content.
   */
   .centered {
-    width: calc(100vw - 40px);
+    width: calc(100% - 40px);
   }
 }
 @media screen and (max-width: 900px) {
