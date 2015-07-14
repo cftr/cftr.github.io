@@ -8,14 +8,13 @@ body {
   width: 600px;
   margin: 0 auto;
 }
-.cftr-icon {
+.leftpositioned {
   position: fixed;
   top: 20px;
-  left: calc(100vw / 2 - 425px);
+  right: calc(100vw / 2 + 320px);
   /*
-  The 420px above is gotten from:
-   +300px: half of body width, gets us to the page's center.
-   +100px: width of icon, gets us to the left of the content.
+  The 320px above is gotten from:
+   +300px: half of body width, gets us to the page's left side.
    +25px: icon margin, gets us 25px padding to the left of the content.
   */
 }
@@ -52,7 +51,7 @@ a:hover {
   }
 }
 @media screen and (max-width: 900px) {
-  .cftr-icon {
+  .leftpositioned {
     position: static;
     margin: 5px 0;
   }
